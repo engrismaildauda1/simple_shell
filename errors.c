@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- *_eputs - prints an input string
- * @str: the string to be printed
- *
+ *_eputs - this prints an input string
+ * @str: is the string to be printed
  * Return: Nothing
  */
+
 void _eputs(char *str)
 {
 	int i = 0;
@@ -20,8 +20,8 @@ void _eputs(char *str)
 }
 
 /**
- * _eputchar - writes the character c to stderr
- * @c: The character to print
+ * _eputchar - this will writes the character c to stderr
+ * @c: is the character to print
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
